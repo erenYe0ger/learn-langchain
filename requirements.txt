@@ -1,0 +1,22 @@
+# LangChain core
+langchain
+langchain-core
+langchain-community
+
+# Hugging Face (local + API)
+langchain-huggingface
+transformers
+huggingface-hub
+accelerate
+torch
+
+# Google Gemini (optional / API)
+langchain-google-genai
+google-generativeai
+
+# Env management
+python-dotenv
+
+# ML utilities (optional, for embeddings / RAG later)
+numpy
+scikit-learn
