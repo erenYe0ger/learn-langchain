@@ -20,3 +20,6 @@ python-dotenv
 # ML utilities (optional, for embeddings / RAG later)
 numpy
 scikit-learn
+
+# Streamlit
+streamlit
