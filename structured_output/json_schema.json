@@ -1,0 +1,20 @@
+{
+    "title": "Review",
+    "type": "object",
+    "properties": {
+        "summary": {
+            "type": "string",
+            "description": "a brief summary of the review"
+        },
+        "sentiment": {
+            "type": "string",
+            "enum": ["pos", "neg", "okay"],
+            "description": "return sentiment of the reviewer"
+        }, 
+        "name": {
+            "type": "string",
+            "description": "name of the reviewer"
+        }
+    },
+    "required": ["summary","sentiment"]
+}

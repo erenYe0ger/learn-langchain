@@ -23,3 +23,6 @@ scikit-learn
 
 # Streamlit
 streamlit
+
+# data parsing
+pydantic
